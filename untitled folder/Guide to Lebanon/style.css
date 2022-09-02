@@ -1,0 +1,63 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  h1{
+    font-family: fantasy;
+    font-display: swap;
+    font-size:45px;
+    text-align: center;
+    color: green;
+  }
+  h3{
+  font-family: fantasy;
+  font-display: swap;
+  font-size:45px;
+  color: red;
+  text-align: center;
+  }
+  li{
+    list-style-type: none;  
+    margin: 0 2vw;
+    /* our font-size will be 3% of the height of the viewport */
+    font-size: 3vh;
+    padding:20 px;
+    text-align:center;
+  }
+  
+  a{  
+    text-decoration: none;
+    /*below I changed the color*/
+    color: black;
+    /*I added some padding*/
+    padding: 2vw;
+    /*also changed the font family but that's totally irrelevant*/
+    font-family: monospace;
+  }
+  nav{
+    width: 100vw;
+      background-color: #D6EFFF;
+    padding:20px;
+  }
+  ul {
+    display : flex;
+    justify-content:center;
+  }
+  
+  
+  body{ 
+    background-color:aliceblue;
+  }
+  
+  #video{
+    border-radius: 20px;
+    margin-left: 50vw; 
+    transform: translate(-50%);
+  }
+  /* #e2{
+    margin:center;
+  }
+  #e3{
+    margin:right;
+  } */

@@ -1,0 +1,60 @@
+.sheep {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+   width: 300px;
+   height:100px;
+  }
+  .Cow {
+    position: absolute;
+    bottom: 220px;
+    left: 80px;
+   width: 300px;
+   height:100px;
+  }
+  .grass{
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+ 
+    top: 500px;
+
+  }
+  .tree{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+   width: 300px;
+   height:500px;
+}
+    
+  h3{
+     
+    font-display: swap;
+    font-size:45px;
+
+    top: 50%;
+    left: 50%;
+    color: red;
+  
+    font-family: 'Raleway', sans-serif;
+    -webkit-text-stroke-color: black;
+    text-align: center;  
+  }
+  body {
+    background-image: url('Clouds.png');
+  }
+  #content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+  }
+.man{
+    position: absolute;
+    bottom: 30px;
+    right: 300px;
+   width: 300px;
+   height:250px;
+
+}

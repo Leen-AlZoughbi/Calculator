@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  body{ 
+    background:linear-gradient(#bae8e8, #e3f6f5,#ffffff);
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  #section1{
+    padding: 125px;
+    text-align: center;
+    background-color:#ffffff ;
+    color:#272343 ;
+  }
+  #section2{
+    padding: 125px;
+    text-align: center;
+    background-color:#bae8e8 ;
+    color:#272343 ;
+  }
+  #section3{
+    padding: 125px;
+    text-align: center;
+    background-color:#272343;
+    color: #ffffff ;
+    text-decoration-color: #ffffff;
+  }
+  #section4{
+    padding: 125px;
+    text-align: center;
+    background-color:#ffffff ;
+    color:#272343 ;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+  .right {
+    background-color:#bae8e8 ;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+      p{
+      font-size:16px;
+    }
+    img{
+      width:65%;
+      height:65%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    img{
+      width:65%;
+      height:65%;
+    }
+    .main, .right {
+      width: 100%;
+    }
+  }
